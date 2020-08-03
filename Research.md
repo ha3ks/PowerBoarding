@@ -10,4 +10,4 @@ This page will list all links I follow to teach myself and hopefully others how 
 - https://support.microsoft.com/en-gb/help/912203/description-of-the-command-line-switches-that-are-supported-by-a-softw
 - https://www.windowscentral.com/how-create-and-run-your-first-powershell-script-file-windows-10
 - Downloaded and installed Windows Terminal as well as followed ScottT Hanselmans blog on [Making a Pretty Prompt in Windows Terminal](https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx)
-- 
+- https://riptutorial.com/powershell/example/20568/multiline-string
