@@ -1,6 +1,6 @@
 Where does all learning begin? 
 
-Google (or Bing if your fancy/have an MS MVP).
+Google (or Bing if you're fancy/have an MS MVP).
 
 # Research
 
