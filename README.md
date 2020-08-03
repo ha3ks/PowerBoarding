@@ -21,5 +21,14 @@ Tasks:
 
 - [x] Initial push of project, outline readme
 - [ ] Learn better githubbing
+- [x] Initial push of 'Hello World' test.
+- [ ] Test installing an .exe
+- [ ] Test installing an .msi
+- [ ] Log install process/Dispaly it.
+- [ ] Make it install more then one file.
+- [ ] QUERY : Staged installer?
+- [ ] QUERY : How do you like your apps? all individual or a compressed .zip of goodies.
+- [ ] Upgrades?
+- [ ] Make it pretty
 - [ ] ...
 - [ ] Profit?
