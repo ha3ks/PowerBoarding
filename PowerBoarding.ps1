@@ -1,2 +1,2 @@
-Clear-History
+Clear-History ##I only had this here to keep my Powershell History in check so I could better monitor things, this will be removed when I switch to full on logging.
 Write-Host "Welcome to the test installer."
