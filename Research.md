@@ -11,3 +11,6 @@ This page will list all links I follow to teach myself and hopefully others how 
 - https://www.windowscentral.com/how-create-and-run-your-first-powershell-script-file-windows-10
 - Downloaded and installed Windows Terminal as well as followed ScottT Hanselmans blog on [Making a Pretty Prompt in Windows Terminal](https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx)
 - https://riptutorial.com/powershell/example/20568/multiline-string
+- https://community.spiceworks.com/topic/694909-multiple-choice-menus
+- 
+- 

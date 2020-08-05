@@ -13,10 +13,10 @@ Tasks:
 - [ ] Test installing an .msi
 - [ ] Log install process/Dispaly it?
 - [ ] Make it install more then one file.
-- [ ] QUERY : GUI interface and select options to install certain things?
+- [x] QUERY : GUI interface and select options to install certain things?
 - [ ] QUERY : How do you like your apps? all individual or a compressed .zip of goodies to extract and install.
 - [ ] Upgrades?
-- [ ] Make it pretty (More GUI faffing).
+- [x] Make it pretty (More GUI faffing).
 - [ ] Write some instructions.
 - [ ] ...
 - [ ] Profit?
