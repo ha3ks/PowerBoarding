@@ -11,12 +11,12 @@ function Main-Menu
 |    ___||  |_|  ||       ||    ___||    __  ||  _   | |  |_|  ||       ||    __  || |_|   ||   | |  _    ||   ||  |
 |   |    |       ||   _   ||   |___ |   |  | || |_|   ||       ||   _   ||   |  | ||       ||   | | | |   ||   |_| |
 |___|    |_______||__| |__||_______||___|  |_||_______||_______||__| |__||___|  |_||______| |___| |_|  |__||_______|
-"
-        Write-Host "- - - - - -"
+"## Everyone loves a fancy banner.
+        Write-Host ""
         Write-Host "Welcome to PowerBoarding"
         Write-Host "- - - - - -"
-        Write-Host "To Continue press y"
-        Write-Host "To exit and close press x"
+        Write-Host "To Continue press y" ## Red pill
+        Write-Host "To exit and close press x" ## Blue pill
         Write-Host ""
         $menuresponse = read-host [Enter Selection]
         Switch ($menuresponse) {
@@ -27,7 +27,7 @@ function Main-Menu
     until (1 -contains $menuresponse) 
 }
 
-function sub-menu1 
+function sub-menu1 ## Test menu, this will get updated for now it is testing functionality
 {
     do
     {
@@ -48,5 +48,52 @@ function sub-menu1
     }
     until (1..3 -contains $menuresponse) 
 }
+function Option-1 ## Next menu Idea.
+{
+    do
+    {
+        Clear
+        Write-Host ""
+        Write-Host "Please Select, something"
+        Write-Host ""
+        Write-Host "y = yes"
+        Write-Host "n = no"
+        Write-Host "x = Return to Main Menu"
+        Write-Host ""
+        $menuresponse = read-host [Enter Selection]
+        Switch ($menuresponse) {
+            "Y" {O1Option-1}
+            "N" {01Option-2}
+            "X" {Main-Menu}
+        }
+    }
+    until (1..3 -contains $menuresponse) 
+} 
 
+function Option-2
+{
+    do
+    {
+        Clear
+        Write-Host ""
+        Write-Host "Would you like to download this file now?"
+        Write-Host ""
+        Write-Host "y = yes" ## Ideally this will shoot off another menu and go to a company server to grab the file.
+        Write-Host "n = no (Go Back)" ## Returns to sub-menu1 asking if you have the installer.
+        Write-Host "x = Return to Main Menu" ## As stated
+        Write-Host ""
+        $menuresponse = read-host [Enter Selection]
+        Switch ($menuresponse) {
+            "Y" {02Option-1}
+            "N" {sub-menu1}
+            "X" {Main-Menu}
+        }
+    }
+    until (1..3 -contains $menuresponse) 
+} 
+
+##function 02Option-1
+##{
+##    Do Magic and get files direct or a compressed zip, probably going to go with zip and durinf the install it will self extract to somewhere (/temp)? and then remove the artifacts.
+##}
 Main-Menu
