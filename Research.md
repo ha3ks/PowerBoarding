@@ -13,4 +13,5 @@ This page will list all links I follow to teach myself and hopefully others how 
 - https://riptutorial.com/powershell/example/20568/multiline-string
 - https://community.spiceworks.com/topic/694909-multiple-choice-menus
 - https://social.technet.microsoft.com/Forums/lync/en-US/30663446-4091-4a1c-9de0-407046ccc39f/powershell-script-with-submenus-how-to-go-back?forum=winserverpowershell
+- https://powershellexplained.com/2016-10-21-powershell-installing-msi-files/
 - 
