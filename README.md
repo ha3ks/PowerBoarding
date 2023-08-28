@@ -6,10 +6,10 @@ This script will install multiple applications contained in the same directory a
 
 ## Installation Instructions
 
-Simply place this .ps1 file in the directory containing the .exe or .msi files you wish to install.
+Simply place the Powerboarding.ps1 file in the directory containing the .exe or .msi files you wish to install.
 
 ## How to run PowerShell script file on Windows
-If you wish to run a script file with PowerShell, you have to change the execution policy on Windows 10.
+If you wish to run a script file with PowerShell, you have to change the execution policy on Windows.
 
 To change the execution policy to run PowerShell scripts, use these steps:
 
